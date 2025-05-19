@@ -32,9 +32,7 @@ const Footer = () => {
         </div>
         
         <div className="border-t border-white/20 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-white/60 text-sm">
-            © {currentYear} João Silva. Todos os direitos reservados.
-          </p>
+          
           <div className="mt-4 md:mt-0">
             <a href="#" className="text-white/60 hover:text-white text-sm mx-3 transition-all-300">Política de Privacidade</a>
             <a href="#" className="text-white/60 hover:text-white text-sm mx-3 transition-all-300">Termos de Uso</a>
