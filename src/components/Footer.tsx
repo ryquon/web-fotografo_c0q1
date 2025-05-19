@@ -1,13 +1,10 @@
-
 const Footer = () => {
   const currentYear = new Date().getFullYear();
-  
-  return (
-    <footer className="bg-black text-white py-10">
+  return <footer className="bg-black text-white py-10">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0">
-            <h2 className="text-2xl font-bold">JOÃO SILVA</h2>
+            <h2 className="text-2xl font-bold">NOME</h2>
             <p className="text-white/80 mt-1">Fotógrafo Profissional</p>
           </div>
           
@@ -44,8 +41,6 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
-
 export default Footer;
